@@ -1,6 +1,10 @@
 <template>
-  <div>
+  <uApp>
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+    <UButton>Click me</UButton>
+  </uApp>
 </template>
+<script lang="js">
+       const x =ref('')
+x.value = "hello"
+</script>
