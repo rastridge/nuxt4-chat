@@ -4,7 +4,8 @@
     <UButton>Click me</UButton>
   </uApp>
 </template>
-<script lang="js">
-       const x =ref('')
-x.value = "hello"
+
+<script>
+  const x = ref("")
+  x.value = "hello"
 </script>
